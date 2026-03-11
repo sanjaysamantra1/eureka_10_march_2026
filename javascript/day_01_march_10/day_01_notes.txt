@@ -11,5 +11,37 @@ Tools / Softwares
    https://code.visualstudio.com/Download
 
 
+3. Git Repo: https://github.com/sanjaysamantra1/eureka_10_march_2026
 
 
+
+
+Web Development
+===============
+-Developing Websites
+
+1. FrontEnd : User Interface ( Look & Feel )
+        HTML : Content ( div, paragraph, image, form, table, audio )
+        CSS : Styling ( border, background, width, height, margin, padding )
+        Bootstrap : CSS Library (Twitter) pre-defined CSS classes
+        Javascript : Behaviour of a webpage 
+        Angular/React/Vue : Javascript Frameworks ( RAD , CLI , FORM , Routing )
+
+2. BackEnd : Develop APIs ( Java , .net , Python , PHP , Go , Nodejs )
+
+3. DataBase : Holds the data ( oracle , mysql , mongoDB )
+
+
+Product List page
+=================
+1. create an HTML File ( product_list.html )
+
+2. !  ( emmet / shortcuts ) add boilerplate code
+   https://docs.emmet.io/cheat-sheet/
+
+
+3. Add Actual HTML,CSS,Javascript Code
+
+4. To Open/Run HTML File in Browser
+   a. install vscode extension ( open in browser )
+   b. alt+b  / alt+shift+b
