@@ -1,0 +1,15 @@
+Tools / Softwares
+=================
+1. NodeJS 
+   https://nodejs.org/en/download
+
+   run the below command in terminal to verify nodejs is installed?
+   node -v
+
+
+2. vscode ( Code Editor )
+   https://code.visualstudio.com/Download
+
+
+
+
