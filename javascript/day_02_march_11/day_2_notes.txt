@@ -1,0 +1,69 @@
+Emmets / Shortcuts
+==================
+!
+
+h2{This is My First HTML Program}
+
+ul>li*5{Car-$}
+
+select>option*20{Country-$}
+
+table>tbody>tr*10>td*5{Data-$}
+
+
+How to use CSS in HTML Files
+============================
+1. inline CSS (style attribute) (Restricted to 1 Element) (not re-usable)
+   <div style="color:blue">Welcome to css</div>
+
+2. internal CSS ( style tag ) ( Restricted to 1 HTML page)
+   <style></style>
+
+3. external CSS 
+   a. write css code in a separate .css File
+   b. include that css file in html file using <link>
+
+
+How To Use Bootstrap in HTML Files
+==================================
+-Bootstrap is a CSS Library
+-PreDefined css classes
+-Maintained by Twitter
+-Bootstrap 5 is the latest version
+-Official Bootstrap Link:  https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+Add CDN Link to the <head></head> of HTML file
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+Types of Javascript
+===================
+1. internal Javascript  <script></script>  Page Level
+2. External Javascript  ( create a separate .js file & include that .js file in HTML )
+
+
+
+How to write and execute javascript code
+========================================
+1. Browser
+    a. create a javascript file with some javascript code (addition.js)
+    b. include that javascript file in HTML
+       <script src='addition.js'></script>
+    c. open HTML file in browser  ( alt + b )
+
+2. NodeJS (BackEnd Development)
+    a. create a javascript file with some javascript code (addition.js)
+    b. run the javascript file with below command (make sure nodejs is installed)
+       node <filename>.js
+
+
+Note: Every javascript code that runs on browser might not work in nodejs , and vice-versa
+
+
+Javascript Objects/module
+============================
+Both Browser & Nodejs  : console , Math, Array , Number , JSON
+
+Only browser , not nodejs : document , window 
+
+only nodejs, not browser : fs , os , http , url 
