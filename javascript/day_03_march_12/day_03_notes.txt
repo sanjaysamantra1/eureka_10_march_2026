@@ -52,3 +52,11 @@ undefined vs null
 -when a variable is declared without any value, javascript assigns 'undefined' to that variables
 -null is an intentional value assigned by developers.
 -typeof 'undefined' value is undefined, type of 'null' value is object
+
+
+HomeWork
+========
+Go through:
+    1. https://www.w3schools.com/html/html_form_elements.asp
+    2. https://www.w3schools.com/html/html_form_input_types.asp
+    3. https://www.w3schools.com/html/html_form_attributes.asp
