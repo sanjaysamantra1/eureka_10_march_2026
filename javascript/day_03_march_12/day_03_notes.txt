@@ -1,0 +1,54 @@
+Most Commonly Used Javascript Objects/Classes
+=============================================
+console : log(), warn(), error(), table(), dir(), time(), timeEnd()
+window : alert(), confirm(), prompt(), atob(), btoa()
+document : write(), getElementById(), querySelector()
+Math : max(), min(), sqrt()
+Array : push(), pop(), slice(), map(), filter()
+Object : keys(), values(), assign()
+JSON : stringify(), parse()
+Number 
+
+
+
+
+Window Object methods
+=====================
+alert() : Display Informational Message
+          Message + Ok
+
+confirm() : User Confirmation
+            Message + (Ok-true , Cancel-false)
+
+prompt() : To Collect User input
+           Message + InputBox + Ok,cancel            
+
+Note: Window object methods can be used directly.
+      window.alert()  // valid
+      alert();        // valid
+
+Assignment: Ask User to enter 2 numbers , and find the sum
+
+
+Datatypes
+=========
+-Type of Data
+
+2 types : Primitive , non-primitives
+
+Primitives:
+    number : 4 ,  4.5 , -2.3
+    string : 'Akhil' , '10' , 'true'
+    boolean : true / false
+    undefined : undefined
+    bigint
+    symbol
+non-primitive : 
+    Object :  {}     []
+
+
+undefined vs null
+===================
+-when a variable is declared without any value, javascript assigns 'undefined' to that variables
+-null is an intentional value assigned by developers.
+-typeof 'undefined' value is undefined, type of 'null' value is object
