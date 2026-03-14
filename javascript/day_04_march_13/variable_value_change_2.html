@@ -1,0 +1,15 @@
+<script>
+    const arr = [10, 20];
+    arr[0] = 15;
+    arr.push(30);
+    delete arr[1];
+    console.log(arr);  // [15,undefined,30]
+    // arr = [100,200]; // assign a new array to arr variable // NO
+
+    const obj = { a: 10, b: 20 };
+    obj.a = 15;
+    delete obj.b;
+    obj.c = 30;
+    console.log(obj);
+    // obj = {a:100,b:200}
+</script>

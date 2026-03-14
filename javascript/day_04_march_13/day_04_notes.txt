@@ -1,0 +1,55 @@
+Javascript : Programming Language, Follows ECMAScript Standards
+ECMA : European Computer Menufecturer Association
+ECMAScript : Set of standards, Followed BY Javascript
+
+
+ES_5    <=   June 2015
+ES_6    2015  ( const , let, class , extends, module, arrow, Map, Set, REST )
+ES_7    2016
+ES_8    2017
+ES_9    2018
+ES_10    2019
+ES_11    2020
+ES_12    2021
+ES_13    2022
+ES_14    2023
+ES_15    2024
+ES_16    2025
+
+
+
+Variables
+=========
+-Memory locations where data value can be stored.
+-Variables can be declared using 
+    1.var  
+    2.let  
+    3.const
+
+
+	var						let						 const
+======================================================================
+1.since begining		 1.ECMASCRIPT-6(2015)		1.ECMASCRIPT-6(2015)
+2.value can be changed   2.value can be changed     2.cann't be changed
+3.initialization is		 3.initialization is		3.mandatory
+	not mandatory           not mandatory	
+4.can be redeclared		 4.cann't be redeclared		4.cann't be redeclared
+5.function/global		 5.block/function/global	5.block/function/global
+6.TDZ - No			 	 6.TDZ - Yes				6.TDZ - Yes
+
+
+Variable Scopes
+===============
+1. Global : Declared outside function
+2. Function : Declared inside a function and accessible in that function only
+3. Block : Declared inside a block and accessible in that block only
+
+
+Strict 
+======
+-Javascript executes the code in normal mode.
+-'use strict' is used to enable strict mode
+-Checks the things strictly and throws error 
+Rules:
+    1. variables cann't be declared without var/let/const
+    2. Duplicate parameter name not allowed 
