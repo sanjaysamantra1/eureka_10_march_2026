@@ -1,0 +1,21 @@
+<script>
+    console.log(`a: ${a}`); // undefined (Hoisting)
+    // console.log(`b: ${b}`); // even though its declared, present in memory, has no value
+    var a = 10;
+    let b = 20;
+    console.log(`a: ${a}`); // 10
+    console.log(`b: ${b}`); // 20
+
+
+    f1()
+    function f1() {
+        console.log('I am f1...')
+    }
+    f1()
+
+    // f2(); // Cannot access 'f2' before initialization
+    let f2 = function () {
+        console.log('I am f2...')
+    }
+    f2()
+</script>

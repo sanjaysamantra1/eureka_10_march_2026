@@ -1,0 +1,18 @@
+<script>
+    console.log('Var doesnt create i variable for each iteratation')
+    for (var i = 0; i < 3; i++) {
+        setTimeout(() => console.log(i), 0); // 3 3 3
+    }
+
+    console.log('let  creates i variable for each iteratation')
+    for (let i = 0; i < 3; i++) {
+        setTimeout(() => console.log(i), 0); // 3 3 3
+    }
+
+
+
+    for (var x = 0; x <= 3; x++) {
+        console.log('inside for loop x:', x)
+    }
+    console.log('outside for loop x:', x)
+</script>

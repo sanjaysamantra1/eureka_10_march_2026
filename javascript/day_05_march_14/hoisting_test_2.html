@@ -1,0 +1,12 @@
+<script>
+    console.log('in global scope: ', a)
+    var a = 5;
+    console.log('in global scope: ', a)
+    function test() {
+        console.log('in function scope: ', a)
+        a = 10;
+        console.log('in function scope: ', a)
+    }
+
+    test();
+</script>

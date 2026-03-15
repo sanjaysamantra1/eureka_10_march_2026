@@ -1,0 +1,11 @@
+<script>
+    var a = 1; // global 
+    function test() {
+        console.log(a);
+    }
+    function test2() {
+        var a = 2;
+        test();
+    }
+    test2();
+</script>
