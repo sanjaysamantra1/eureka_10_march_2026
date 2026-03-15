@@ -1,0 +1,20 @@
+<script>
+    function varTest() {
+        if (true) {
+            var a = 10;
+            console.log('InSide Block: ', a); // 10
+        }
+        console.log('outside Block: ', a); // 10 
+    }
+    varTest();
+    // Even though 'a' is declared inside a block, its still accessible outside the block
+
+    function letTest() {
+        if (true) {
+            let x = 10;
+            console.log('InSide Block: ', x); // 10
+        }
+        console.log('outside Block: ', x); // x is not defined
+    }
+    letTest();
+</script>
