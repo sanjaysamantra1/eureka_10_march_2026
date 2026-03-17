@@ -1,0 +1,54 @@
+functions
+=========
+1. PreDefined : console.log(), window.alert(), Math.max()
+2. UserDefined : 
+
+User Defined Function:
+=====================
+1. Function Declaration (Named Function)
+2. Function Expression  (Anonymous)
+3. Arrow Function
+
+
+
+Function Declaration vs Function Expressions
+=============================================
+1. Function Declaration are named, Function Expressions are Anonymous
+2. Function Declarations are hoisted, Function Expressions are not hoisted
+
+
+Arrow Function
+==============
+-shorter in syntax.
+-No function keyword
+-'return' can be skipped
+-Function body is optional
+-Anonymous
+-are not hoisted
+
+    function incrementBy5(ele) {
+        return ele + 5;
+    }
+    let res1 = arr.map(incrementBy5);
+    console.log(res1);
+
+HigherOredr Function : A function that takes another function as argument
+                       in this example map() is higherOrder
+
+CallBack Function : A function that is passed as argument to another function 
+                    in this example incrementBy5() is callback function     
+
+
+this
+=====
+-'this' is a keyword in javascript
+-'this' refers to a specific object and acts as a reference to the current execution context
+
+
+
+Arrow Function Limitations:
+==========================
+1. Arrow functions shouldn't be used in object literals   
+   inside arrow function 'this' will not be pointing to the object, this=window    
+2. Arrow functions shouldn't be used as event handlers
+   

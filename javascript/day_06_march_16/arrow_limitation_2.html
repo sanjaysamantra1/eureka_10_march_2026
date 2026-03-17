@@ -1,0 +1,22 @@
+<html>
+
+<head></head>
+
+<body>
+    <button id="loginBtn">Login</button>
+    <script>
+        let loginBtn = document.getElementById('loginBtn');
+
+        loginBtn.addEventListener('click', () => {
+            console.log('arrow: ', this);  // this = window
+            console.log(loginBtn)
+        })
+
+        loginBtn.addEventListener('click', function () {
+            console.log('regular: ', this);  // this = loginBtn
+            this.style.color = 'red';
+        })
+    </script>
+</body>
+
+</html>
