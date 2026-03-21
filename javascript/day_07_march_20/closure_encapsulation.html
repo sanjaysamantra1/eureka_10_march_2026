@@ -1,0 +1,32 @@
+<script>
+    let account = { accNo: 12345, accBal: 5000 };   // Not Encapsulated object
+
+    console.log(account.accNo, account.accBal); // Read
+    account.accBal = -50000;   // write
+    console.log(account.accNo, account.accBal); // Read
+
+
+    function openAccount(initialAmt) {
+        let accNo = 112233;
+        let accBal = initialAmt; // data are hidden , functions are exposed
+
+        return {
+            deposit: function (amtToDeposit) {
+                if (amtToDeposit < 0) {
+                    alert('Boss, I dont want your money')
+                } else {
+                    accBal = accBal + amtToDeposit;
+                }
+            },
+            displayAccInfo: function () {
+                console.log(`AccNo:${accNo} AccBal:${accBal}`)
+            }
+        }
+    }
+    let encapsulatedAccount = openAccount(3000);
+    console.log(encapsulatedAccount);
+    encapsulatedAccount.displayAccInfo();
+    encapsulatedAccount.deposit(-40000);
+    encapsulatedAccount.deposit(4000);
+    encapsulatedAccount.displayAccInfo();
+</script>
