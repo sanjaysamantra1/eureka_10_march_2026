@@ -1,0 +1,19 @@
+<script>
+    let cars = ['Tata', 'Honda', 'maruti', 'Hyundai'];
+
+    // splice()  1. only delete   2. only insert  3. both delete & insert
+    // splice(start: number, deleteCount?: number , elements to insert)
+    cars.splice(1, 2);
+    console.log(cars);
+
+    cars.splice(1, 0, 'Honda', 'maruti');
+    console.log(cars);
+
+    cars.splice(1, 1, 'Toyota');
+    console.log(cars)
+
+
+    let arr1 = [10, 20, 30, 40, 50]
+    let arr2 = arr1.toSpliced(1, 2);
+    console.log(arr1, arr2);
+</script>
