@@ -1,0 +1,17 @@
+<script>
+    let arr = [10, 20, 30, 40, 50];
+    let sum = arr.reduce((prev, curr) => {
+        console.log(prev, curr)
+        return prev + curr;
+    });
+    console.log(`Sum: ${sum}`);
+
+
+    // reverse  a string using reduce()
+    let str = 'EUREKA';
+    let revStr = str.split('').reduce((rev, char) => {
+        console.log(rev, char)
+        return char + rev;
+    }, '');
+    console.log(revStr);
+</script>

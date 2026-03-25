@@ -1,0 +1,15 @@
+<script>
+    let str = 'entertainment';
+    // output = { e:3 , n:3, t:2, ....}
+
+    let res = str.split('').reduce((countObj, char) => {
+        console.log(countObj, char)
+        if (countObj[char]) {
+            countObj[char]++;
+        } else {
+            countObj[char] = 1;
+        }
+        return countObj;
+    },{});
+    console.log(res)
+</script>

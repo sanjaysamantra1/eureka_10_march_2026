@@ -33,3 +33,7 @@ Passcode: kA6bVB#9
 day_9_march_23:
 https://zoom.us/rec/share/x4CA3gwcJAtltyxHYOTd6ZXwp4Cyu_5a-JSiwfU9khvYcAfJ_bNhQ33D4Q61azjq.lEF2sllWEj9S5FO0 
 Passcode: z5^6p=DJ
+
+day_10_march_24:
+https://zoom.us/rec/share/waOUbfRH4XQrRUrCk-fkHgeMvQKs27ZOA4yWttNigVMBVXiB7ZJCAlTr3BN3Slsb.a-xvUU-JY_QXcD7O 
+Passcode: j06mVQi*
