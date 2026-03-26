@@ -1,0 +1,26 @@
+<script>
+    let obj = {
+        a: 10,
+        b: 20,
+        f1: function () {
+            console.log('I am f1...')
+        },
+        f2() {
+            console.log('I am f2...')
+        }
+    }
+
+    function createLaptop(brand, model, price) {
+        return { // es_5
+            brand: brand,
+            model: model,
+            price: price
+        }
+    }
+    console.log(createLaptop('HP', 'proBook', 40000))
+
+    function makeLaptop(brand, model, price) {
+        return { brand, model, price } // es_6
+    }
+    console.log(makeLaptop('HP', 'proBook', 40000))
+</script>
