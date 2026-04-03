@@ -56,3 +56,7 @@ Passcode: n6C3$+6t
 day_14_april_1:
 https://zoom.us/rec/share/0-e2Xa8b_LBPwE64ed52kKLw4PaX6eTL1Ry1vhtlC2IL9FeoFqHK8Ib7OpYh9Zmn.vSKe7CxooLtNvmWK 
 Passcode: fWB+iz4c
+
+day_15_april_2:
+https://zoom.us/rec/share/xef0Yu6K92N55kvWOzjEppmZaQjJsocNgCQtkdEosC7thCnPvgANPXprPG99qAU1.tyd5Tf_krxDC4u0P 
+Passcode: 7.8yK8Nn

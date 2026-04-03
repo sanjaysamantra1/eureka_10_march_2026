@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './carousel.html',
   styleUrl: './carousel.css',
 })
-export class Carousel {}
+export class Carousel {
+  myName = 'Sanjay Kumar';
+}

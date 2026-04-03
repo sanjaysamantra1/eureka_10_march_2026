@@ -1,0 +1,51 @@
+<h3 class="text-center">Lets Learn Data Binding</h3>
+
+<div class="border border-3 rounded-3 p-3">
+  <div>Interpolation & Property Binding</div>
+  <div>Name: {{myName}}</div>
+  <div>Expression: {{10+20+30 - 5}}</div>
+
+  <img src="{{img_url}}" alt="" width="250" height="250" />
+  <img [src]="img_url" alt="" width="250" height="250" />
+  <img bind-src="img_url" alt="" width="250" height="250" />
+
+  <div class="mt-2">
+    1 way: <input value="{{myName}}" />
+    1 way: <input [value]="myName" class="mx-2" />
+    1 way: <input bind-value="myName" />
+    2 way: <input [(ngModel)]="myName" />
+  </div>
+
+  <div class="mt-2">
+    <button class="btn btn-success mx-1" disabled="{{flag}}">Click Me</button>
+    <button class="btn btn-success mx-1" [disabled]="flag">Click Me</button>
+    <button class="btn btn-success mx-1" bind-disabled="flag">Click Me</button>
+    <span>Flag:: {{flag}}</span>
+    <button (click)="toggleFlag()" class="btn btn-success mx-1">Toggle Flag</button>
+    <button on-click="toggleFlag()" class="btn btn-success mx-1">Toggle Flag</button>
+  </div>
+</div>
+
+<div class="mt-2">
+  <table class="table table-bordered">
+    <tbody>
+      <tr>
+        <!-- Header spans 2 columns -->
+        <th [attr.colspan]="col_span">Monthly Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+      <tr>
+        <!-- Data cell spans 2 columns -->
+        <td [colSpan]="col_span">Total: $180</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
