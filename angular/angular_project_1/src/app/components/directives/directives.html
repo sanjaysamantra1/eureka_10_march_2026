@@ -1,0 +1,63 @@
+<h3 class="text-center">Let's learn Directives</h3>
+
+<div class="border border-2 rounded-2 p-2 my-2">
+  <div>If Else Before Angular 17 </div>
+  <div>Note: To use Old if-else we need CommonModule</div>
+  <input type="number" [(ngModel)]="num" />
+
+  <div *ngIf="num%2 ==0">{{num}} is Even Number</div>
+  <div *ngIf="num%2 !==0">{{num}} is Odd Number</div>
+</div>
+
+<div class="border border-2 rounded-2 p-2 my-2">
+  <div>If Else Before After 17 </div>
+  @if(num%2 ==0){
+      <div>{{num}} is Even Number</div>
+  }@else {
+    <div>{{num}} is Odd Number</div>
+  }
+</div>
+
+<div class="border border-2 rounded-2 p-2 my-2">
+  <div>Switch Case::</div>
+  @switch (num) {
+    @case (1) { <h4>Monday</h4> }
+    @case (2) { <h4>Tuesday</h4> }
+    @case (3) { <h4>Wednesday</h4> }
+    @case (4) { <h4>Thursday</h4> }
+    @case (5) { <h4>Friday</h4> }
+    @case (6) { <h4>Saturday</h4> }
+    @case (7) { <h4>Sunday</h4> }
+    @default { <h4>Not a Valid number</h4> }
+  }
+</div>
+
+<div class="border border-2 rounded-2 p-2 my-2">
+  <div>Car List using For::</div>
+  <ul>
+    @for (car of carArr; track $index) {
+      <li>{{car}}</li>
+    }@empty {
+	    No Cars To Display
+	  }
+  </ul>
+</div>
+
+<div class="border border-2 rounded-2 p-2 my-2">
+  <div>Employee Table using For::</div>
+
+  <table class="table table-bordered">
+    <tbody>
+      @for (emp of employees; track $index) {
+        <tr>
+          <td>{{emp.id}}</td>
+          <td>{{emp.name}}</td>
+          <td>{{emp.gender}}</td>
+          <td>{{emp.role}}</td>
+          <td>{{emp.salary}}</td>
+          <td>{{emp.status}}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>

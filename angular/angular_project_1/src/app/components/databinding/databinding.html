@@ -49,3 +49,23 @@
   </table>
 
 </div>
+
+<div class="border border-3 rounded-3 p-3">
+  <div>Add 2 numbers using 2-way binding</div>
+  <div>
+    <input type="number" [(ngModel)]="num1" />
+    <input type="number" [(ngModel)]="num2" />
+  </div>
+  <div>Addition of {{num1}} and {{num2}} is {{num1+num2}}</div>
+</div>
+
+<div class="border border-3 rounded-3 p-3 mt-2">
+  <div>Add 2 numbers template reference variable</div>
+  <div>
+    <input type="number" #myBox1 />
+    <input type="number" #myBox2 />
+  </div>
+  <div>Addition of {{myBox1.value}} and {{myBox2.value}} is {{addResult}}</div>
+
+  <button (click)="addition(myBox1.value,myBox2.value)">Add</button>
+</div>

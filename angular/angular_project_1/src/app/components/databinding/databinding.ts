@@ -12,8 +12,15 @@ export class Databinding {
   img_url = 'https://documents.iplt20.com/ipl/IPLHeadshot2025/2.png';
   flag = true;
   col_span = 2;
+  num1 = 10;
+  num2 = 20;
 
   toggleFlag() {
     this.flag = !this.flag;
+  }
+
+  addResult: number | undefined ;
+  addition(val1: string, val2: string) {
+    this.addResult = +val1 + +val2;
   }
 }

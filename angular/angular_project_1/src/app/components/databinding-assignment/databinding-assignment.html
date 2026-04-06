@@ -1,0 +1,17 @@
+<h3 class="text-center">Databinding Assignments</h3>
+
+<div class="border border-2 rounded-2 p-2">
+  <!-- 6. greeting based on time (good mornig, good afternoon, good evening) -->
+  <input type="time" [(ngModel)]="currentTime">
+  <div>Current Time:: {{currentTime}}</div>
+  <div>Current Time:: {{displayGreeting()}}</div>
+</div>
+
+<div class="border border-2 rounded-2 p-2">
+  <!-- Create a textarea with maxLength = 100; as the user keeps typing, count and display how many words and how many characters are typed and  also display remaining characters. -->
+  <textarea [(ngModel)]="msg" maxlength="100"></textarea>
+  <div>Msg: {{msg}}</div>
+  <div>Character Count: {{msg.length}} </div>
+  <div>Word Count: {{msg.split(' ').length}} </div>
+  <div>Remaining: {{100 - msg.length}} </div>
+</div>
