@@ -9,6 +9,7 @@ import { GOOD_MORNING } from '../../constants/message_constants';
 import { FormsModule } from '@angular/forms';
 import { Textonly } from '../../custom-directives/textonly';
 import { Disablepaste } from '../../custom-directives/disablepaste';
+import { Zoomin } from '../../custom-directives/zoomin';
 
 @Component({
   selector: 'app-product-list',
@@ -17,7 +18,8 @@ import { Disablepaste } from '../../custom-directives/disablepaste';
     NgxPaginationModule,
     FormsModule,
     Textonly,
-    Disablepaste
+    Disablepaste,
+    Zoomin
   ],
   templateUrl: './product-list.html',
   styleUrl: './product-list.css',

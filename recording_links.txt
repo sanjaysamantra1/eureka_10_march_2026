@@ -80,3 +80,7 @@ Passcode: ^TJ8EYs3
 day_20_april_10:
 https://zoom.us/rec/share/fZJxYU4QNO8ZTx0mx8DJOVYBQNKu0l8LkR5C8Oz0S_Nn1vaK-giM5tpNbJw6ar4h.8y-vEtCecV-2zSSf 
 Passcode: Q9SCqcY%
+
+day_21_april_11:
+https://zoom.us/rec/share/-8OsFmQTld6W29rphdhJ30klL_qVcT7CZtpOWfEVQv9xqG-UvuvgptVkqcUeIQSg.ac4p-ufYNeScXjdz 
+Passcode: g@H^NsG4
