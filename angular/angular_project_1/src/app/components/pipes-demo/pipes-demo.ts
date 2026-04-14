@@ -2,10 +2,11 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RemainingPipe } from '../../custom-pipes/remaining-pipe';
+import { MysortPipe } from '../../custom-pipes/mysort-pipe';
 
 @Component({
   selector: 'app-pipes-demo',
-  imports: [CommonModule, FormsModule,RemainingPipe],
+  imports: [CommonModule, FormsModule, RemainingPipe,MysortPipe],
   templateUrl: './pipes-demo.html',
   styleUrl: './pipes-demo.css',
 })
@@ -17,4 +18,6 @@ export class PipesDemo {
   cars = ['Tata', 'Honda', 'Maruti', 'Hyundai', 'Mahindra'];
 
   msg = 'Good Morning';
+
+  arr = [30, 10, 50, 40, 20];
 }

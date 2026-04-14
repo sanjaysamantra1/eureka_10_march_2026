@@ -10,6 +10,9 @@
 
 <div class="border border-2 rounded-2 p-2 m-2">
   <div>currency pipe</div>
+  <div>
+    <input type="number" [(ngModel)]="salary" />
+  </div>
   <div>{{salary}}</div>
   <div>{{salary | currency}}</div>
   <div>{{salary | currency : 'INR'}}</div>
@@ -76,4 +79,16 @@
   <textarea [(ngModel)]="msg" maxlength="100"></textarea>
   <div>Message: {{msg}}</div>
   <div>Remaining Chars: {{msg | remaining}}</div>
+</div>
+
+<div class="border border-2 rounded-2 p-2 m-2">
+  <h3>Need of impure pipe</h3>
+  @for (item of arr | mysort; track $index) {
+    <b>{{item}} &nbsp;</b>
+  }
+
+  <div>
+    <input type="number" #newNum />
+    <button class="mx-1" (click)="arr.push(+newNum.value)">Add new num</button>
+  </div>
 </div>

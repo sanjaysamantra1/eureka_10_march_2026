@@ -2,9 +2,11 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'remaining',
+  // pure: false,
 })
 export class RemainingPipe implements PipeTransform {
-  transform(value: any) {
-    return 100 - value.length;
+  transform(msg: any) {
+    console.log('Remaining Pipe...')
+    return 100 - msg.length;
   }
 }
