@@ -1,6 +1,9 @@
 <div class="row border border-3 p-2 text-center mt-2">
   <div>This is Parent Component</div>
-  <div>my own data a: {{a}}</div>
+  <div>
+    my own data a: {{a}}
+    <input type="number" [(ngModel)]="a">
+  </div>
   <div>My child2's data b: {{child2.b}}</div>
   <div>My child1's data CourseName: {{parentCourseName}}</div>
 

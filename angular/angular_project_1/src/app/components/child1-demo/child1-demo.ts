@@ -17,4 +17,14 @@ export class Child1Demo {
   sendDataToParent() {
     this.courseEvent.emit(this.courseName);
   }
+
+  constructor() {
+    console.log('Child Constructor');
+  }
+  ngOnChanges(myChanges:any) { // N times
+    console.log('Child ngOnChanges',myChanges);
+  }
+  ngOnInit() {
+    console.log('Child ngOnInit');
+  }
 }

@@ -13,12 +13,12 @@ import { ParentDemo } from '../parent-demo/parent-demo';
   imports: [
     // Databinding,
     // DatabindingAssignment
-    // Directives
+    Directives
     // MyModal,
     // UserList
     // ProductList
     // PipesDemo
-    ParentDemo
+    // ParentDemo
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
