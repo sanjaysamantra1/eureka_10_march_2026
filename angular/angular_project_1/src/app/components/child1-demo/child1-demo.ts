@@ -27,4 +27,7 @@ export class Child1Demo {
   ngOnInit() {
     console.log('Child ngOnInit');
   }
+  ngDoCheck() {
+    console.log('Child ngDoCheck');
+  }
 }

@@ -11,6 +11,10 @@
     <app-child1-demo [a]="a" [b]="child2.b" (courseEvent)="receiveCourseData($event)"></app-child1-demo>
   </div>
   <div class="col-sm-6 border border-3 p-2">
-    <app-child2-demo [aChild2]="a" #child2></app-child2-demo>
+    <app-child2-demo [aChild2]="a" #child2>
+      <div #parentContent>This is Content From Parent</div>
+    </app-child2-demo>
   </div>
 </div>
+<!-- <app-cart [cartItems]="cartItems"></app-cart>
+<button (click)="addItem()">Add Item</button> -->
