@@ -98,3 +98,7 @@ Passcode: Z?pZg81S
 day_24_april_15:
 https://zoom.us/rec/share/oHupALn0IIfChjnzuISSzqk8i3vJTs50nYrqc3Pg6Xe0H2sSIswr35XFyqvraU10.eiQIHTx40Wycty06 
 Passcode: pE1C^3JE
+
+day_25_april_16:
+https://zoom.us/rec/share/i2H_kqByizp0CWOjCcBL59--Xt6XDUqdcFFevPTMq8rfoDf8_O67URwQr1evSFkL._RPaGG5fCQHDsXXW 
+Passcode: .1k2Xxb6

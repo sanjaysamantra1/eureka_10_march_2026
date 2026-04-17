@@ -7,6 +7,8 @@ import { MyModal } from '../my-modal/my-modal';
 import { ProductList } from '../product-list/product-list';
 import { PipesDemo } from '../pipes-demo/pipes-demo';
 import { ParentDemo } from '../parent-demo/parent-demo';
+import { Products } from '../products/products';
+import { MathDemo } from '../math-demo/math-demo';
 
 @Component({
   selector: 'app-body',
@@ -18,7 +20,9 @@ import { ParentDemo } from '../parent-demo/parent-demo';
     // UserList
     // ProductList
     // PipesDemo
-    ParentDemo
+    // ParentDemo
+    // Products
+    MathDemo
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
