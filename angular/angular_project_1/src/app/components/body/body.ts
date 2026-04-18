@@ -1,3 +1,4 @@
+import { HttpDemo1 } from './../http-demo1/http-demo1';
 import { UserList } from './../user-list/user-list';
 import { Component } from '@angular/core';
 import { Databinding } from '../databinding/databinding';
@@ -9,6 +10,7 @@ import { PipesDemo } from '../pipes-demo/pipes-demo';
 import { ParentDemo } from '../parent-demo/parent-demo';
 import { Products } from '../products/products';
 import { MathDemo } from '../math-demo/math-demo';
+import { StockList } from '../stock-list/stock-list';
 
 @Component({
   selector: 'app-body',
@@ -22,7 +24,9 @@ import { MathDemo } from '../math-demo/math-demo';
     // PipesDemo
     // ParentDemo
     // Products
-    MathDemo
+    // MathDemo
+    // HttpDemo1
+    StockList
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
