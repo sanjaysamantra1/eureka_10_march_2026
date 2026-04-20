@@ -14,7 +14,7 @@ export class StockList {
 
   httpClient = inject(HttpClient);
 
-  stockData: Observable<Object> | undefined;
+  stockData: Observable<any> | undefined;
 
   ngOnInit() {
     this.stockData = this.httpClient.get(this.api_url);
