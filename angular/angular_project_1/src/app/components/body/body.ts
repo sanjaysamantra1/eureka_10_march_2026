@@ -13,6 +13,7 @@ import { MathDemo } from '../math-demo/math-demo';
 import { StockList } from '../stock-list/stock-list';
 import { CommentList } from '../comment-list/comment-list';
 import { EmployeeList } from '../employee-list/employee-list';
+import { ObservableDemo1 } from '../observable-demo1/observable-demo1';
 
 @Component({
   selector: 'app-body',
@@ -28,9 +29,10 @@ import { EmployeeList } from '../employee-list/employee-list';
     // Products
     // MathDemo
     // HttpDemo1
-    // StockList
+    // StockList,
     // CommentList
-    EmployeeList
+    // EmployeeList
+    ObservableDemo1
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
