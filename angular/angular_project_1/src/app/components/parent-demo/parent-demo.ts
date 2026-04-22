@@ -6,7 +6,7 @@ import { Cart } from '../../omponents/cart/cart';
 
 @Component({
   selector: 'app-parent-demo',
-  imports: [Child1Demo, Child2Demo, FormsModule, Cart],
+  imports: [Child1Demo, Child2Demo, FormsModule],
   templateUrl: './parent-demo.html',
   styleUrl: './parent-demo.css',
 })
