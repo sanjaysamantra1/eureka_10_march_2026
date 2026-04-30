@@ -1,3 +1,4 @@
+import { TemplateForm } from './../template-form/template-form';
 import { ObservableDemo2 } from './../observable-demo2/observable-demo2';
 import { HttpDemo1 } from './../http-demo1/http-demo1';
 import { UserList } from './../user-list/user-list';
@@ -19,6 +20,8 @@ import { ObservableDemo3 } from '../observable-demo3/observable-demo3';
 import { SignalDemo1 } from '../signal-demo1/signal-demo1';
 import { SignalDemo2 } from '../signal-demo2/signal-demo2';
 import { FormDemo1 } from '../form-demo1/form-demo1';
+import { ModelForm } from '../model-form/model-form';
+import { DynamicForm } from '../dynamic-form/dynamic-form';
 
 @Component({
   selector: 'app-body',
@@ -42,7 +45,10 @@ import { FormDemo1 } from '../form-demo1/form-demo1';
     // ObservableDemo3
     // SignalDemo1
     // SignalDemo2
-    FormDemo1
+    // FormDemo1
+    // TemplateForm
+    // ModelForm
+    DynamicForm
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
