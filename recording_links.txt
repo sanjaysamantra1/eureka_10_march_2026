@@ -133,3 +133,7 @@ Passcode: Wn^pX6Ye
 day_32_april_29:
 https://zoom.us/rec/share/joBjaiCg-8zvP7EZW7JDpIlhOxjoSFkjUV0nwUxFQ5G8uDBVZjneoS_65oHEi02e.J75Cd05C5TQevjMK 
 Passcode: 2x^Zdj9W
+
+day_33_april_30:
+https://zoom.us/rec/share/C8gmiwmtcmdEqeD4-MZI0-RbS4qCSdZSy9Ycc799eDd3aQXjawnkI8L_WTyMCHO7.2bKgaaJ35osOFiXh 
+Passcode: Ri8u.gX4
