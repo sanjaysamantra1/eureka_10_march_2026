@@ -137,3 +137,7 @@ Passcode: 2x^Zdj9W
 day_33_april_30:
 https://zoom.us/rec/share/C8gmiwmtcmdEqeD4-MZI0-RbS4qCSdZSy9Ycc799eDd3aQXjawnkI8L_WTyMCHO7.2bKgaaJ35osOFiXh 
 Passcode: Ri8u.gX4
+
+day_34_may_1:
+https://zoom.us/rec/share/i0sbZM2a02-27gcD7HA0wWLgeB-_SKE_S37k0rzYHbsDekjgeWkEY29pS8R76_m_.G9vUKVt84FbchYCE 
+Passcode: i+&FeL6?

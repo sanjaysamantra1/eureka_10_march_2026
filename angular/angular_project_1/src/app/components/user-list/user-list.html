@@ -12,7 +12,7 @@
             <p class="card-text">{{user.email}}</p>
             <p class="card-text">{{user.phone}}</p>
             <p class="card-text">{{user.address.city}}</p>
-            <a href="#" class="btn btn-primary">Details</a>
+            <a [routerLink]="['/userdetails',user.id]" class="btn btn-primary">Details</a>
           </div>
         </div>
       </div>

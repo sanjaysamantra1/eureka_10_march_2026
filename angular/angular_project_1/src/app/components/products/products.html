@@ -13,7 +13,8 @@
           <p class="card-text">
             Rating: {{product.rating}}
           </p>
-          <a href="#" class="btn btn-primary">Details</a>
+          <a [routerLink]="['/productdetails']"
+            [queryParams]="{id:product.id,title:product.title,price:product.price}" class="btn btn-primary" >Details</a>
         </div>
       </div>
     </div>
