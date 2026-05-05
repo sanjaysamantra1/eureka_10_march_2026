@@ -141,3 +141,7 @@ Passcode: Ri8u.gX4
 day_34_may_1:
 https://zoom.us/rec/share/i0sbZM2a02-27gcD7HA0wWLgeB-_SKE_S37k0rzYHbsDekjgeWkEY29pS8R76_m_.G9vUKVt84FbchYCE 
 Passcode: i+&FeL6?
+
+day_35_may_4:
+https://zoom.us/rec/share/Go-taycdDK3Lb0QPwZIclWNnxsIH_u5aOEJodxzcrveNATqntOM_CAYUp7qINeOG.mLXXm0n7xAYtL7ND 
+Passcode: 60V=3kTK
