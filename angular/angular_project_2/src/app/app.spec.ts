@@ -20,4 +20,13 @@ describe('App', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular_project_2');
   });
+
+  it('should verify add function', () => {
+    const fixture = TestBed.createComponent(App);
+    const app = fixture.componentInstance;
+    expect(app.add(10, 20)).toBe(30);
+    expect(app.add(10, -20)).toBe(-10);
+    expect(app.add(-10, -20)).toBe(-30);
+    expect(app.add(-10, 20)).toBe(10);
+  });
 });
