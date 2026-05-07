@@ -14,7 +14,32 @@ export class App {
     return a + b;
   }
 
-  // isEven()
+  isEven(num: number) {
+    return num % 2 === 0;
+  }
 
-  // factorial()
+  sumOfDigits(num: number) {
+    let sum = 0;
+    while (num != 0) {
+      let rem = num % 10;
+      sum = sum + rem;
+      num = Math.floor(num / 10);
+    }
+    return sum;
+  }
+
+  cars = ['Tata', 'Honda'];
+
+  addNewCar(newCar: string) {
+    this.cars.push(newCar);
+  }
+
+  processData(data: any) {
+    console.log('Processing data:', data);
+    return data.length;
+  }
+  fetchData() {
+    const data = ['item1', 'item2', 'item3'];
+    return this.processData(data);
+  }
 }
