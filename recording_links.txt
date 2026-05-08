@@ -153,3 +153,7 @@ Passcode: fh@6.vsl
 day_37_may_6:
 https://zoom.us/rec/share/1P6FptrCgchpvAQNy19kvnoMqTfFNysZj1IGCUfhO1mQnvaDIibEfo0PHQCQOhjr.ONBNqyQsrVDWoAYx 
 Passcode: 0hYCuU*q
+
+day_38_may_7:
+https://zoom.us/rec/share/XYLNy8mw52bpLd9oEXTAn1zS158uLJHZoFfjDMlF-z0O3GqolL1ENNq2LZ6brXvl.Ht8aL_5glZTDwxP8 
+Passcode: 7@aV1+Uq
